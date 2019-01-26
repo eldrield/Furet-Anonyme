@@ -14,11 +14,6 @@ public class PlayerRaycast : MonoBehaviour
 
 	#region Main
 
-	private void Awake()
-	{
-		
-	}
-
 	private void FixedUpdate()
 	{
 		Vector3 RaycastOrigin = m_camera.ViewportToWorldPoint( new Vector3( 0.5f , 0.5f , 0.0f ) );
