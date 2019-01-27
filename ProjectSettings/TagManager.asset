@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - object
+  - Disjoncteur
+  - levier
+  - SIM
+  - keys
   layers:
   - Default
   - TransparentFX
