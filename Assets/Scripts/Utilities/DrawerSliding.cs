@@ -6,6 +6,7 @@ public class DrawerSliding : MonoBehaviour
 {
     #region Public
     public bool m_isOpen;
+    public GameObject m_lerpTarget;
 
     #endregion
 
@@ -15,6 +16,8 @@ public class DrawerSliding : MonoBehaviour
     {
       m_isOpen = false;  
       m_transform = GetComponent<Transform>();
+      m_openPos = m_lerpTarget.transform.position;
+      m_firstPos = m_transform.position;
     }
 
     #endregion
@@ -22,12 +25,12 @@ public class DrawerSliding : MonoBehaviour
    #region Main
 	public void OpenDrawer()
 	{
-		m_transform.position = Vector3.Lerp (m_transform.position, new Vector3 (m_transform.position.x, m_transform.position.y, m_transform.position.z + 1.0f), 0.8f);
+		m_transform.position = Vector3.Lerp (m_transform.position, m_openPos, 2f);
         m_isOpen = true;
     }
 	public void CloseDrawer()
 	{
-		m_transform.position = Vector3.Lerp (m_transform.position, new Vector3 (m_transform.position.x, m_transform.position.y, m_transform.position.z - 1.0f), 0.8f);
+		m_transform.position = Vector3.Lerp (m_transform.position, m_firstPos, 2f);
         m_isOpen = false;
 	}
 
@@ -35,6 +38,8 @@ public class DrawerSliding : MonoBehaviour
 
     #region private
     private Transform m_transform;
+    private Vector3 m_firstPos;
+    private Vector3 m_openPos;
     
     #endregion
 }
