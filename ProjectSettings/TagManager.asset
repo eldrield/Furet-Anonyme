@@ -12,39 +12,42 @@ TagManager:
   - Card
   - Key
   - Lever
+  - Cable
+  - Livre
+  - Livre 2
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  -
+  - 
   - Water
   - UI
-  -
-  -
+  - 
+  - 
   - Player
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   m_SortingLayers:
   - name: Default
     uniqueID: 0
