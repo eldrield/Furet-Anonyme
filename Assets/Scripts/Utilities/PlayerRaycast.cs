@@ -12,7 +12,7 @@ public class PlayerRaycast : MonoBehaviour
 	#endregion
 
 
-	#region Main
+	#region System
 
 	private void FixedUpdate()
 	{
@@ -23,8 +23,37 @@ public class PlayerRaycast : MonoBehaviour
 			switch (hit.collider.tag)
 			{
 				case "object" :
-					Debug.Log("JE SUIS TROP FORT !!!!!");
+					if(Input.GetKeyUp(KeyCode.E))
+					{
+						if (hit.collider.gameObject.GetComponent<DrawerSliding>().m_isOpen == false)
+						{
+						hit.collider.gameObject.GetComponent<DrawerSliding>().OpenDrawer();
+						}
+						else
+						{
+						 hit.collider.gameObject.GetComponent<DrawerSliding>().CloseDrawer();	
+						}
+					}
 				break ;
+				case "Code" :
+					Inventory.instance.AddToInventory( "Code" );
+				break ;
+				case "Card" :
+					Inventory.instance.AddToInventory( "Card" );
+				break ;
+				case "Lever" :
+					Inventory.instance.AddToInventory( "Lever" );
+				break ;
+				case "Cable" :
+					Inventory.instance.AddToInventory( "Cable" );
+				break ;
+				case "Key" :
+					Inventory.instance.AddToInventory( "Key" );
+				break ;
+				case "untagged" :
+					
+				break;
+
 			}
 
 		}
