@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class TeleportPlayer : MonoBehaviour
 {
+    #region Public
     public bool m_toFirstFloor;
     public bool m_toCave;
 
+    #endregion
+
+    #region System
     private void Start()
     {
         if(m_toFirstFloor)
@@ -66,5 +70,10 @@ public class TeleportPlayer : MonoBehaviour
             
     }
 
+    #endregion
+
+    #region Private
     private bool m_checked = true;
+
+    #endregion
 }

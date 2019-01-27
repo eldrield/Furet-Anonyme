@@ -13230,7 +13230,6 @@ GameObject:
   - component: {fileID: 3300760837434024547}
   - component: {fileID: 3300760837434024544}
   - component: {fileID: 3300760837434024545}
-  - component: {fileID: 6088457263505460508}
   - component: {fileID: 2445717175932459780}
   m_Layer: 0
   m_Name: Tiroire 1 (4)
@@ -14082,25 +14081,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 0}
---- !u!95 &6088457263505460508
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3300760837434024575}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3d4beb6f25f3db54185c3938495866b9, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &2445717175932459780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14114,7 +14094,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_isOpen: 0
-  m_lerpTarget: {fileID: 0}
+  m_lerpTarget: {fileID: 6996638296053717106}
 --- !u!1 &3300760837619914931
 GameObject:
   m_ObjectHideFlags: 0
@@ -15454,7 +15434,6 @@ GameObject:
   - component: {fileID: 3300760837938903130}
   - component: {fileID: 3300760837938903131}
   - component: {fileID: 3300760837938903128}
-  - component: {fileID: 656507403600062196}
   - component: {fileID: 167174775209599409}
   m_Layer: 0
   m_Name: Tiroire 1 (5)
@@ -16395,25 +16374,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 0}
---- !u!95 &656507403600062196
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3300760837938903126}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3d4beb6f25f3db54185c3938495866b9, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &167174775209599409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16427,7 +16387,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_isOpen: 0
-  m_lerpTarget: {fileID: 0}
+  m_lerpTarget: {fileID: 3852928970134643479}
 --- !u!1 &3852928970134643479
 GameObject:
   m_ObjectHideFlags: 0

@@ -71,6 +71,12 @@ public class PlayerRaycast : MonoBehaviour
 					Destroy( hit.collider.gameObject);
 					}
 				break ;
+				case "Taking": 
+
+				break; 
+				case "Power" :
+
+				break;
 				case "untagged" :
 					
 				break;
