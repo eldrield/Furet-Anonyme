@@ -18,12 +18,15 @@ public class PlayerRaycast : MonoBehaviour
 	{
 		Vector3 RaycastOrigin = m_camera.ViewportToWorldPoint( new Vector3( 0.5f , 0.5f , 0.0f ) );
 		RaycastHit hit;
-		Physics.Raycast( RaycastOrigin , m_camera.transform.forward , out hit , 1f );
-		switch (hit.collider.tag)
+		if ( Physics.Raycast( RaycastOrigin , m_camera.transform.forward , out hit , 1f )  )
 		{
-			case "object" :
-				Debug.Log("JE SUIS TROP FORT !!!!!");
-			break ;
+			switch (hit.collider.tag)
+			{
+				case "object" :
+					Debug.Log("JE SUIS TROP FORT !!!!!");
+				break ;
+			}
+
 		}
 		
 		

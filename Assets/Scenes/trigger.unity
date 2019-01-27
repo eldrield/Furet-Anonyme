@@ -1701,6 +1701,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Commode
       objectReference: {fileID: 0}
+    - target: {fileID: 3300760837619914931, guid: 681716ec17267384b853a58b61fcdeb0,
+        type: 3}
+      propertyPath: m_TagString
+      value: object
+      objectReference: {fileID: 0}
     - target: {fileID: 3300760837619914930, guid: 681716ec17267384b853a58b61fcdeb0,
         type: 3}
       propertyPath: m_LocalPosition.x
