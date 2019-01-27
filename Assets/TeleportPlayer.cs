@@ -10,9 +10,10 @@ public class TeleportPlayer : MonoBehaviour
     private void Start()
     {
         if(m_toFirstFloor)
-        {
             m_checked = false;
-        }
+
+        if( m_toCave )
+            m_checked = false;
     }
 
     private void Update()
