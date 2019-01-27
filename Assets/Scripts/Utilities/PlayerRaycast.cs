@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
+using UnityEngine.SceneManagement;
 
 public class PlayerRaycast : MonoBehaviour
 {
@@ -19,10 +20,10 @@ public class PlayerRaycast : MonoBehaviour
 
 	#region System
 
-//  private void Awake()
-// {
-// 	Inventory.instance.AddToInventory( "Key" );
-// }
+	private void Awake()
+	{
+		m_stopLever = false;
+	}
 	private void FixedUpdate()
 	{
 		Vector3 RaycastOrigin = m_camera.ViewportToWorldPoint( new Vector3( 0.5f , 0.5f , 0.0f ) );
@@ -84,28 +85,33 @@ public class PlayerRaycast : MonoBehaviour
 				case "Taking": 
 					if(Input.GetKeyUp(KeyCode.E))
 					{
+						PlayerPrefs.SetFloat("Time", Time.time);
 						m_finalObject.SetActive(true);
-						//Load Win Screen
+						SceneManager.LoadScene("Win");
 					}
 				break; 
 				case "Power" :
 				if (Input.GetKeyUp(KeyCode.E))
 				{
-				if (!m_isLeverOk)
-				{
-					Destroy(m_makeLever);
-					Inventory.instance.DeleteFromInventory( "Lever" );
-					m_powerDown.SetActive(true);
-					m_isLeverOk = !m_isLeverOk;
-				}
-				else
-				{
-					Destroy(m_powerDown);
-					m_powerUp.SetActive(true);
-					m_lightLever.SetActive(true);
-					m_powerUp.GetComponent<openLight>().mercichérif();
+					if (!m_stopLever)
+					{
+						if (!m_isLeverOk)
+						{
+							Destroy(m_makeLever);
+							Inventory.instance.DeleteFromInventory( "Lever" );
+							m_powerDown.SetActive(true);
+							m_isLeverOk = !m_isLeverOk;
+						}
+						else
+						{
+							Destroy(m_powerDown);
+							m_powerUp.SetActive(true);
+							m_lightLever.SetActive(true);
+							m_powerUp.GetComponent<openLight>().mercichérif();
+							m_stopLever = !m_stopLever;
 
-				}
+						}
+					}
 				}
 				break;
 				case "untagged" :
@@ -126,6 +132,7 @@ public class PlayerRaycast : MonoBehaviour
 	#region Private
 
 	private bool m_isLeverOk;
+	private bool m_stopLever;
 
 	#endregion
 }
