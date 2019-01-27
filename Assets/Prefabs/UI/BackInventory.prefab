@@ -264,7 +264,6 @@ GameObject:
   - component: {fileID: 1556878927149278901}
   - component: {fileID: 1556878927149278900}
   - component: {fileID: 1556878927149278898}
-  - component: {fileID: 4530471367614873649}
   m_Layer: 5
   m_Name: BackInventory
   m_TagString: Untagged
@@ -348,26 +347,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &4530471367614873649
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1556878927149278902}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96357652d80d5bb4a9fc4b1aed60cbaa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_accessInventory: 0
-  m_inventory: {fileID: 0}
-  m_hasCode: 0
-  m_hasCard: 0
-  m_hasLever: 0
-  m_hasCable: 0
-  m_hasKey: 0
-  m_itemsList: []
 --- !u!1 &1556878927633250954
 GameObject:
   m_ObjectHideFlags: 0

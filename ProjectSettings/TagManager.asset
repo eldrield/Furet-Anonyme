@@ -9,6 +9,9 @@ TagManager:
   - levier
   - SIM
   - keys
+  - Card
+  - Key
+  - Lever
   layers:
   - Default
   - TransparentFX

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
+    #region Public
     public static Inventory instance;
     public bool m_accessInventory;
     public GameObject m_inventory;
@@ -16,6 +17,10 @@ public class Inventory : MonoBehaviour
     [Header("Database")]
     public List<Transform> m_itemsList = new List<Transform>();
 
+    #endregion
+
+
+    #region Main
     public void SwitchInventory()
     {
         if( m_displayed )
@@ -226,6 +231,12 @@ public class Inventory : MonoBehaviour
             return false;
         }
 
+
+    #endregion
+
+
+    #region System
+
     private void Awake()
     {
         if( instance != null )
@@ -270,8 +281,14 @@ public class Inventory : MonoBehaviour
         }
     }
 
+    #endregion
+
+
+    #region Private
     private bool m_displayed;
     private Animator m_animator;
     private int m_actualPosition = 0;
     private float m_lastTime = 0;
+
+    #endregion
 }

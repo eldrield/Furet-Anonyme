@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8376333613551969038}
   m_Layer: 0
   m_Name: Carte Sim
-  m_TagString: SIM
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
