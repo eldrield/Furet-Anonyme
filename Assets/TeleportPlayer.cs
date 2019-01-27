@@ -4,10 +4,54 @@ using UnityEngine;
 
 public class TeleportPlayer : MonoBehaviour
 {
+    public bool m_toFirstFloor;
+    public bool m_toCave;
+
+    private void Start()
+    {
+        if(m_toFirstFloor)
+        {
+            m_checked = false;
+        }
+    }
+
+    private void Update()
+    {
+        if(m_toFirstFloor)
+        {
+            if( !Inventory.instance.m_hasKey )
+                GetComponent<BoxCollider>().isTrigger = false;
+            else
+                GetComponent<BoxCollider>().isTrigger = true;
+        }
+
+        if(m_toCave)
+        {
+            if( !Inventory.instance.m_hasCode )
+                GetComponent<BoxCollider>().isTrigger = false;
+            else
+                GetComponent<BoxCollider>().isTrigger = true;
+        }
+    }
+
     private void OnTriggerEnter( Collider other )
     {
         if( other.tag.Equals( "Player" ) )
         {
+            if( m_toFirstFloor )
+            {
+                Inventory.instance.DeleteFromInventory( "Key" );
+                m_checked = true;
+            }
+
+            if(m_toCave )
+            {
+                Inventory.instance.DeleteFromInventory( "Code" );
+                m_checked = true;
+            }
+
+            if( !m_checked )
+                return;
             Transform o = other.GetComponent<Transform>();
             Transform c = GetComponent<Transform>().GetChild( 0 );
             o.position = GetComponent<Transform>().GetChild( 0 ).position;
@@ -20,4 +64,6 @@ public class TeleportPlayer : MonoBehaviour
         }
             
     }
+
+    private bool m_checked = true;
 }
