@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3361486941770516006}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -2}
+  m_LocalPosition: {x: 0.06, y: 0, z: -0.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5964766012540095820}
@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 5964766010707717592}
   m_Layer: 0
   m_Name: Livre2 (10)
-  m_TagString: Untagged
+  m_TagString: Livre 2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -353,7 +353,7 @@ GameObject:
   - component: {fileID: 5964766010736780425}
   m_Layer: 0
   m_Name: Livre (22)
-  m_TagString: Untagged
+  m_TagString: Livre
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -669,7 +669,7 @@ GameObject:
   - component: {fileID: 5964766010756989016}
   m_Layer: 0
   m_Name: Livre2 (8)
-  m_TagString: Untagged
+  m_TagString: Livre 2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -977,7 +977,7 @@ GameObject:
   - component: {fileID: 5964766010817021284}
   m_Layer: 0
   m_Name: Livre2 (15)
-  m_TagString: Untagged
+  m_TagString: Livre 2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1285,7 +1285,7 @@ GameObject:
   - component: {fileID: 5964766010898521012}
   m_Layer: 0
   m_Name: Livre2 (6)
-  m_TagString: Untagged
+  m_TagString: Livre 2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1593,7 +1593,7 @@ GameObject:
   - component: {fileID: 5964766010911785251}
   m_Layer: 0
   m_Name: Livre (27)
-  m_TagString: Untagged
+  m_TagString: Livre
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1909,7 +1909,7 @@ GameObject:
   - component: {fileID: 5964766010962685560}
   m_Layer: 0
   m_Name: Livre (10)
-  m_TagString: Untagged
+  m_TagString: Livre
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4209,7 +4209,7 @@ GameObject:
   - component: {fileID: 5964766011087652264}
   m_Layer: 0
   m_Name: Livre2 (2)
-  m_TagString: Untagged
+  m_TagString: Livre 2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4517,7 +4517,7 @@ GameObject:
   - component: {fileID: 5964766011092301130}
   m_Layer: 0
   m_Name: Livre (4)
-  m_TagString: Untagged
+  m_TagString: Livre
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4561,7 +4561,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: aa6cb6e112117224db9233f1db325c08, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4825,7 +4825,7 @@ GameObject:
   - component: {fileID: 5964766011125481262}
   m_Layer: 0
   m_Name: Livre (23)
-  m_TagString: Untagged
+  m_TagString: Livre
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5141,7 +5141,7 @@ GameObject:
   - component: {fileID: 5964766011187110861}
   m_Layer: 0
   m_Name: Livre2 (12)
-  m_TagString: Untagged
+  m_TagString: Livre 2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5449,7 +5449,7 @@ GameObject:
   - component: {fileID: 5964766011194626778}
   m_Layer: 0
   m_Name: Livre2 (5)
-  m_TagString: Untagged
+  m_TagString: Livre 2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7819,7 +7819,7 @@ GameObject:
   - component: {fileID: 5964766011350847068}
   m_Layer: 0
   m_Name: Livre2 (9)
-  m_TagString: Untagged
+  m_TagString: Livre 2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8127,7 +8127,7 @@ GameObject:
   - component: {fileID: 5964766011363665320}
   m_Layer: 0
   m_Name: Livre2 (4)
-  m_TagString: Untagged
+  m_TagString: Livre 2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8435,7 +8435,7 @@ GameObject:
   - component: {fileID: 5964766011366181791}
   m_Layer: 0
   m_Name: Livre2 (16)
-  m_TagString: Untagged
+  m_TagString: Livre 2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8743,7 +8743,7 @@ GameObject:
   - component: {fileID: 5964766011371681619}
   m_Layer: 0
   m_Name: Livre (13)
-  m_TagString: Untagged
+  m_TagString: Livre
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9059,7 +9059,7 @@ GameObject:
   - component: {fileID: 5964766011393126905}
   m_Layer: 0
   m_Name: Livre2 (11)
-  m_TagString: Untagged
+  m_TagString: Livre 2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9367,7 +9367,7 @@ GameObject:
   - component: {fileID: 5964766011395223252}
   m_Layer: 0
   m_Name: Livre (17)
-  m_TagString: Untagged
+  m_TagString: Livre
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9683,7 +9683,7 @@ GameObject:
   - component: {fileID: 5964766011454752302}
   m_Layer: 0
   m_Name: Livre2 (7)
-  m_TagString: Untagged
+  m_TagString: Livre 2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9991,7 +9991,7 @@ GameObject:
   - component: {fileID: 5964766011487883350}
   m_Layer: 0
   m_Name: Livre (6)
-  m_TagString: Untagged
+  m_TagString: Livre
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10299,7 +10299,7 @@ GameObject:
   - component: {fileID: 5964766011506221177}
   m_Layer: 0
   m_Name: Livre (1)
-  m_TagString: Untagged
+  m_TagString: Livre
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10931,7 +10931,7 @@ GameObject:
   - component: {fileID: 5964766011555654575}
   m_Layer: 0
   m_Name: Livre2 (18)
-  m_TagString: Untagged
+  m_TagString: Livre 2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11239,7 +11239,7 @@ GameObject:
   - component: {fileID: 5964766011576458935}
   m_Layer: 0
   m_Name: Livre (20)
-  m_TagString: Untagged
+  m_TagString: Livre
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11555,7 +11555,7 @@ GameObject:
   - component: {fileID: 5964766011626458134}
   m_Layer: 0
   m_Name: Livre (21)
-  m_TagString: Untagged
+  m_TagString: Livre
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12180,7 +12180,7 @@ GameObject:
   - component: {fileID: 5964766011721293571}
   m_Layer: 0
   m_Name: Livre (28)
-  m_TagString: Untagged
+  m_TagString: Livre
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12527,6 +12527,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5964766011738639586}
+  - component: {fileID: 4859780255371325777}
   m_Layer: 0
   m_Name: Bibliotheque
   m_TagString: Untagged
@@ -12550,6 +12551,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4859780255371325777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5964766011738639585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b693b4cabe837884aa363ff6bdb982fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_book: {fileID: 2100000, guid: aa6cb6e112117224db9233f1db325c08, type: 2}
+  m_book2: {fileID: 2100000, guid: 2b44982170af96146a090fc09fa3af33, type: 2}
 --- !u!1 &5964766011782900590
 GameObject:
   m_ObjectHideFlags: 0
@@ -12565,7 +12580,7 @@ GameObject:
   - component: {fileID: 5964766011782900584}
   m_Layer: 0
   m_Name: Livre2 (14)
-  m_TagString: Untagged
+  m_TagString: Livre 2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12873,7 +12888,7 @@ GameObject:
   - component: {fileID: 5964766011798775379}
   m_Layer: 0
   m_Name: Livre (26)
-  m_TagString: Untagged
+  m_TagString: Livre
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13505,7 +13520,7 @@ GameObject:
   - component: {fileID: 5964766011826536008}
   m_Layer: 0
   m_Name: Livre (19)
-  m_TagString: Untagged
+  m_TagString: Livre
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13821,7 +13836,7 @@ GameObject:
   - component: {fileID: 5964766011897547149}
   m_Layer: 0
   m_Name: Livre2 (13)
-  m_TagString: Untagged
+  m_TagString: Livre 2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14437,7 +14452,7 @@ GameObject:
   - component: {fileID: 5964766011930769042}
   m_Layer: 0
   m_Name: Livre2 (1)
-  m_TagString: Untagged
+  m_TagString: Livre 2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14745,7 +14760,7 @@ GameObject:
   - component: {fileID: 5964766011965992824}
   m_Layer: 0
   m_Name: Livre (12)
-  m_TagString: Untagged
+  m_TagString: Livre
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16639,7 +16654,7 @@ GameObject:
   - component: {fileID: 5964766012042532875}
   m_Layer: 0
   m_Name: Livre (25)
-  m_TagString: Untagged
+  m_TagString: Livre
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16955,7 +16970,7 @@ GameObject:
   - component: {fileID: 5964766012105587986}
   m_Layer: 0
   m_Name: Livre (14)
-  m_TagString: Untagged
+  m_TagString: Livre
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17271,7 +17286,7 @@ GameObject:
   - component: {fileID: 5964766012181956059}
   m_Layer: 0
   m_Name: Livre2 (3)
-  m_TagString: Untagged
+  m_TagString: Livre 2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17579,7 +17594,7 @@ GameObject:
   - component: {fileID: 5964766012182554417}
   m_Layer: 0
   m_Name: Livre2 (17)
-  m_TagString: Untagged
+  m_TagString: Livre 2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17887,7 +17902,7 @@ GameObject:
   - component: {fileID: 5964766012208374644}
   m_Layer: 0
   m_Name: Livre (3)
-  m_TagString: Untagged
+  m_TagString: Livre
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17931,7 +17946,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: aa6cb6e112117224db9233f1db325c08, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -18203,7 +18218,7 @@ GameObject:
   - component: {fileID: 5964766012240449593}
   m_Layer: 0
   m_Name: Livre (9)
-  m_TagString: Untagged
+  m_TagString: Livre
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18519,7 +18534,7 @@ GameObject:
   - component: {fileID: 5964766012281328806}
   m_Layer: 0
   m_Name: Livre (8)
-  m_TagString: Untagged
+  m_TagString: Livre
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18835,7 +18850,7 @@ GameObject:
   - component: {fileID: 5964766012286009897}
   m_Layer: 0
   m_Name: Livre (16)
-  m_TagString: Untagged
+  m_TagString: Livre
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19151,7 +19166,7 @@ GameObject:
   - component: {fileID: 5964766012325895722}
   m_Layer: 0
   m_Name: Livre (24)
-  m_TagString: Untagged
+  m_TagString: Livre
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19467,7 +19482,7 @@ GameObject:
   - component: {fileID: 5964766012346919798}
   m_Layer: 0
   m_Name: Livre (2)
-  m_TagString: Untagged
+  m_TagString: Livre
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19783,7 +19798,7 @@ GameObject:
   - component: {fileID: 5964766012434496709}
   m_Layer: 0
   m_Name: Livre (5)
-  m_TagString: Untagged
+  m_TagString: Livre
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19827,7 +19842,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: aa6cb6e112117224db9233f1db325c08, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -20409,7 +20424,7 @@ GameObject:
   - component: {fileID: 5964766012557686670}
   m_Layer: 0
   m_Name: Livre (11)
-  m_TagString: Untagged
+  m_TagString: Livre
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20725,7 +20740,7 @@ GameObject:
   - component: {fileID: 5964766012591889364}
   m_Layer: 0
   m_Name: Livre (7)
-  m_TagString: Untagged
+  m_TagString: Livre
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21041,7 +21056,7 @@ GameObject:
   - component: {fileID: 5964766012701902243}
   m_Layer: 0
   m_Name: Livre (15)
-  m_TagString: Untagged
+  m_TagString: Livre
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21357,7 +21372,7 @@ GameObject:
   - component: {fileID: 5964766012743165482}
   m_Layer: 0
   m_Name: Livre (18)
-  m_TagString: Untagged
+  m_TagString: Livre
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21670,6 +21685,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Livre2
       objectReference: {fileID: 0}
+    - target: {fileID: 8858617740319318627, guid: df77b1e6181e52549964af1d0fa57d79,
+        type: 3}
+      propertyPath: m_TagString
+      value: Livre 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8858617740319318632, guid: df77b1e6181e52549964af1d0fa57d79,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21750,11 +21770,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5964766011288724646}
     m_Modifications:
-    - target: {fileID: 2818400342016240013, guid: 9474cdbb9136a26498b3a2f7be6a2bb7,
-        type: 3}
-      propertyPath: m_Name
-      value: Livre
-      objectReference: {fileID: 0}
     - target: {fileID: 2818400342016240010, guid: 9474cdbb9136a26498b3a2f7be6a2bb7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21809,6 +21824,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818400342016240013, guid: 9474cdbb9136a26498b3a2f7be6a2bb7,
+        type: 3}
+      propertyPath: m_Name
+      value: Livre
       objectReference: {fileID: 0}
     - target: {fileID: 2818400342016240009, guid: 9474cdbb9136a26498b3a2f7be6a2bb7,
         type: 3}
