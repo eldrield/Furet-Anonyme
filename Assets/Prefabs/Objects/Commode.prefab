@@ -13233,7 +13233,7 @@ GameObject:
   - component: {fileID: 2445717175932459780}
   m_Layer: 0
   m_Name: Tiroire 1 (4)
-  m_TagString: Untagged
+  m_TagString: object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14448,9 +14448,10 @@ GameObject:
   - component: {fileID: 3300760837783050259}
   - component: {fileID: 3300760837783050256}
   - component: {fileID: 3300760837783050257}
+  - component: {fileID: 4198861825879289352}
   m_Layer: 0
   m_Name: Tiroire 1 (6)
-  m_TagString: Untagged
+  m_TagString: object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15387,6 +15388,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 0}
+--- !u!114 &4198861825879289352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3300760837783050351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95078fba3c327904381b0a6b975afdea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_isOpen: 0
+  m_lerpTarget: {fileID: 2232523694321496933}
 --- !u!1 &3300760837913852949
 GameObject:
   m_ObjectHideFlags: 0
@@ -15437,7 +15452,7 @@ GameObject:
   - component: {fileID: 167174775209599409}
   m_Layer: 0
   m_Name: Tiroire 1 (5)
-  m_TagString: Untagged
+  m_TagString: object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
