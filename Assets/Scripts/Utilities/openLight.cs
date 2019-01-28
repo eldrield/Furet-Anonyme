@@ -4,8 +4,21 @@ using UnityEngine;
 
 public class openLight : MonoBehaviour
 {
-  public void mercichérif()
+    public List<GameObject> m_lights = new List<GameObject>();
+
+    private void Awake()
+    {
+        foreach(GameObject l in m_lights)
+        {
+            l.SetActive(false);
+        }
+    }
+
+    public void mercichérif()
   {
-      Debug.Log("je suis viré ?");
+      foreach(GameObject l in m_lights)
+        {
+            l.SetActive(true);
+        }
   }
 }
